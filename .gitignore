@@ -1,0 +1,13 @@
+# Environnement et caches
+
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Secrets 
+.env
+
+# Fichiers intermédiaires volumineux
+data/processed/
