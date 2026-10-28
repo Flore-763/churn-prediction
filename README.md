@@ -1,5 +1,5 @@
 # Prédiction du churn client — Random Forest + Streamlit
-[Application en ligne](https://ton-app.streamlit.app)  ![Aperçu de l'application](image.png)
+[Application en ligne](https://churn-radar-randomforest.streamlit.app/)  ![Aperçu de l'application](image.png)
 ## Problème
 Un opérateur télécom veut identifier les clients susceptibles de résilier
 pour déclencher une action de fidélisation. Données : IBM Telco (7 043 clients).
@@ -25,9 +25,9 @@ Variables les plus influentes : contrat, ancienneté, facture mensuelle...
 5. Application Streamlit : prédiction individuelle et exploration
 ## Lancer le projet
 ```bash
-git clone https://github.com/<ton-pseudo>/churn-prediction.git
+git clone https://github.com/Flore-763/churn-prediction.git
 cd churn-prediction
-python -m venv .venv && source .venv/bin/activate
+python -m venv .venv && source .venv\Scripts\activate
 pip install -r requirements.txt
 python -m src.train # entraîne et sauvegarde le modèle
 streamlit run app.py
