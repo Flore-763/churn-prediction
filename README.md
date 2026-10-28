@@ -25,7 +25,7 @@ Variables les plus influentes : contrat, ancienneté, facture mensuelle...
 5. Application Streamlit : prédiction individuelle et exploration
 ## Lancer le projet
 ```bash
-git clone https://github.com/Flore-763/churn-prediction.git
+git clone ---
 cd churn-prediction
 python -m venv .venv && source .venv\Scripts\activate
 pip install -r requirements.txt
