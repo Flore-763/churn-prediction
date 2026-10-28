@@ -11,3 +11,5 @@ __pycache__/
 
 # Fichiers intermédiaires volumineux
 data/processed/
+
+notebooks/test_notebook.ipynb

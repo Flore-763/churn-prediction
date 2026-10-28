@@ -1,0 +1,13 @@
+{
+  "roc_auc": 0.8454,
+  "recall_churn": 0.7914,
+  "f1_churn": 0.6291,
+  "cv_roc_auc": 0.848,
+  "best_params": {
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 16,
+    "min_samples_split": 14,
+    "n_estimators": 437
+  }
+}
